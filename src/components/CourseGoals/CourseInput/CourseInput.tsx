@@ -1,7 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from 'react';
 import styled from 'styled-components'
 import Button from '../../UI/Button/Button';
-import './CourseInput.css';
 
 type FormControlProps = { invalid: boolean }
 const FormControl = styled.form`
